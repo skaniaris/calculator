@@ -149,23 +149,5 @@ let equals = document.getElementById("equal");
 equals.addEventListener("click", () => {
     button = equals; 
     populateDisplay(); 
-    // if (second == 0 && operator == "/") {
-    //     alert("cannot operate");
-    //     display.innerHTML = ""
-    //     first = 0; 
-    //     second = 0;
-    //     operator = "";
-    // }  else if (operator == "") {
-    //     display.innerHTML = "";
-    //     first = 0;
-    //     second = 0; 
-    // } else {
-    //     display.innerHTML = round(operate(first, second, operator));
-    //     first = display.innerHTML;
-    // if (first == display.innerHTML){
-    // operator = "";
-    // second = "";   
-    // }
-    // }
 });
     
